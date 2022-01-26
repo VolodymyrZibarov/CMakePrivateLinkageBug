@@ -6,5 +6,5 @@ add_executable(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
     static3
-    emptyStatic2
+    interface2  # order matters.
     )

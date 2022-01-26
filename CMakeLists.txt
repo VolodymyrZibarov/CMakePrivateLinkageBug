@@ -4,7 +4,7 @@ project(CMakePrivateLinkageBug)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 
-add_subdirectory(emptyStatic2)
+add_subdirectory(interface2)
 add_subdirectory(shared1)
 add_subdirectory(static3)
 add_subdirectory(static4data)
