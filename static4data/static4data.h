@@ -1,14 +1,18 @@
 #pragma once
 
+#include <cstdio>
+
 struct Value
 {
     Value()
     {
         mValue = new int(0);
+        printf("created: %p\n", mValue);
     }
 
     ~Value()
     {
+        printf("destroying: %p\n", mValue);
         delete mValue;
     }
 
